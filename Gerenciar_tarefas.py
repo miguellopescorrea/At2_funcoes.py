@@ -32,8 +32,3 @@ def concluir_tarefa(indice):
         tarefas[indice]["concluida"] = True
         salvar_tarefas(tarefas)
 
-# Exemplo de uso:
-# adicionar_tarefa("Entregar trabalho", "2025-04-30")
-# listar_tarefas()
-# concluir_tarefa(0)
-# listar_tarefas()
